@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Üdvözlő szöveg -->
+    <TextView
+        android:id="@+id/welcomeMainTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Üdvözöllek!"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Diktálás gomb -->
+    <Button
+        android:id="@+id/diktalasButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diktálás"
+        app:layout_constraintTop_toBottomOf="@id/welcomeMainTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Számláim gomb -->
+    <Button
+        android:id="@+id/szamlaimButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Számláim"
+        app:layout_constraintTop_toBottomOf="@id/diktalasButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/profilomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profilom"
+        app:layout_constraintTop_toBottomOf="@id/szamlaimButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Kijelentkezés gomb -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kijelentkezés"
+        app:layout_constraintTop_toBottomOf="@id/profilomButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

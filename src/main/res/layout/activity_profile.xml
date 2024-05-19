@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Név: " />
+
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail cím: " />
+
+        <TextView
+            android:id="@+id/addressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lakcím: " />
+
+        <TextView
+            android:id="@+id/motherNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anyja neve: " />
+
+        <TextView
+            android:id="@+id/birthPlaceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Születési hely: " />
+
+        <TextView
+            android:id="@+id/birthDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Születési dátum: " />
+
+        <EditText
+            android:id="@+id/editEmailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Új e-mail cím" />
+
+        <Button
+            android:id="@+id/updateEmailButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail cím frissítése" />
+
+        <EditText
+            android:id="@+id/editAddressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Új lakcím" />
+
+        <Button
+            android:id="@+id/updateAddressButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lakcím frissítése" />
+
+        <EditText
+            android:id="@+id/currentPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jelenlegi jelszó"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/newPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Új jelszó"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/confirmPasswordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Új jelszó megerősítése"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/updatePasswordButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jelszó frissítése" />
+
+        <Button
+            android:id="@+id/deleteProfileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profil törlése" />
+
+        <Button
+            android:id="@+id/backToMainMenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visszalépés a főmenübe" />
+    </LinearLayout>
+</ScrollView>
