@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "633448468467",
+    "project_id": "gazoraallas-6e442",
+    "storage_bucket": "gazoraallas-6e442.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633448468467:android:9b9ac48a78cf64c8960c86",
+        "android_client_info": {
+          "package_name": "com.example.Gazora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHxvWiSUQQaW8w6mmwMc1XWRW2uWWDuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633448468467:android:c1e25f3b61ae20d9960c86",
+        "android_client_info": {
+          "package_name": "com.example.gazora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHxvWiSUQQaW8w6mmwMc1XWRW2uWWDuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633448468467:android:a3f2cddc7fefe1b5960c86",
+        "android_client_info": {
+          "package_name": "com.example.gazoraallas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHxvWiSUQQaW8w6mmwMc1XWRW2uWWDuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

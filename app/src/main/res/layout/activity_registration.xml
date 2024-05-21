@@ -1,0 +1,148 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:id="@+id/profileMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Email cím megjelenítése -->
+        <TextView
+            android:id="@+id/registerTextViewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email cím:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/registerEditTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerTextViewEmail"
+            android:hint="Írd be az email címed"
+            android:inputType="textEmailAddress" />
+
+        <!-- Jelszó megjelenítése -->
+        <TextView
+            android:id="@+id/registerTextViewPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerEditTextEmail"
+            android:text="Jelszó:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/registerEditTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerTextViewPassword"
+            android:hint="Adj meg egy jelszót"
+            android:inputType="textPassword" />
+
+        <!-- Név megjelenítése és szerkesztése -->
+        <TextView
+            android:id="@+id/registerTextViewName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerEditTextPassword"
+            android:text="Név:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/registerEditTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerTextViewName"
+            android:hint="Írd be a neved"
+            android:inputType="text" />
+
+        <!-- Lakcím megjelenítése és szerkesztése -->
+        <TextView
+            android:id="@+id/registerTextViewAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerEditTextName"
+            android:text="Lakcím:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/registerEditTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerTextViewAddress"
+            android:hint="Írd be a lakcímed"
+            android:inputType="text" />
+
+        <!-- Anyja neve megjelenítése és szerkesztése -->
+        <TextView
+            android:id="@+id/registerTextViewMotherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerEditTextAddress"
+            android:text="Anyja neve:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/registerEditTextMotherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerTextViewMotherName"
+            android:hint="Írd be édesanyád nevét"
+            android:inputType="text" />
+
+        <!-- Születési hely megjelenítése és szerkesztése -->
+        <TextView
+            android:id="@+id/regiszerTextViewBirthPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerEditTextMotherName"
+            android:text="Születési hely:"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/registerEditTextBirthPlace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/regiszerTextViewBirthPlace"
+            android:hint="Írd be a születési helyed"
+            android:inputType="text" />
+
+        <!-- Születési dátum megjelenítése és szerkesztése -->
+        <TextView
+            android:id="@+id/registerTextViewBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Születési dátum:"
+            android:layout_below="@id/registerEditTextBirthPlace"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <DatePicker
+            android:id="@+id/registerDatePickerBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerTextViewBirthDate"
+            android:layout_marginTop="10dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner" />
+
+        <!-- Regisztráció gomb -->
+        <Button
+            android:id="@+id/registerButtonSaveChanges"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/registerDatePickerBirthDate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Regisztráció" />
+
+    </RelativeLayout>
+</ScrollView>
